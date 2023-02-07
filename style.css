@@ -62,10 +62,9 @@ div {
 }
 
 .small-container {
-  background-image: radial-gradient(
-    #637cc5 40%,
-    rgb(173, 173, 221) 90%,
-    rgb(106, 219, 106) 5%
+  background-image:linear-gradient(to right, rgb(106, 219, 106) 5%,
+    blue,
+    rgb(106, 219, 106)
   );
   height: 300px;
   display: grid;
